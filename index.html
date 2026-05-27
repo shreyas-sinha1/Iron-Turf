@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Iron Turf is a premium fitness gym in Patna with strength equipment, cardio, personal training, nutrition guidance, and group classes."
+    />
+    <title>Iron Turf | Premium Fitness Gym in Patna</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Montserrat:wght@500;600;700;800;900&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="siteHeader">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand brand--header" href="#home" aria-label="Iron Turf home">
+          <span class="brand-logo" aria-hidden="true">
+            <img src="assets/logo-clean.png" alt="" />
+          </span>
+          <span class="brand-mark">
+            <span class="brand-title">IRON TURF</span>
+            <!-- <span class="brand-subtitle">xyz aesthetic text</span> -->
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-controls="navMenu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home" aria-labelledby="heroTitle">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="container hero-content reveal">
+          <p class="eyebrow"><i class="fa-solid fa-bolt"></i> Premium fitness destination in Patna</p>
+          <h1 id="heroTitle">Build Strength. Own Your Turf.</h1>
+          <p class="hero-tagline">
+            A unique, no frills gym for all your fitness needs. A vibrant spot for you to push yourself.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="btn btn-primary" href="tel:+917070339999">
+              <i class="fa-solid fa-dumbbell"></i>
+              Join Now
+            </a>
+            <a class="btn btn-ghost" href="#contact">
+              <i class="fa-solid fa-message"></i>
+              Contact Us
+            </a>
+          </div>
+
+          <div class="hero-stats" aria-label="Gym highlights">
+            <div>
+              <strong>5+</strong>
+              <span>Training zones</span>
+            </div>
+            <div>
+              <strong>1:1</strong>
+              <span>Coaching support</span>
+            </div>
+            <div>
+              <strong>360</strong>
+              <span>Fitness focus</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section" id="features" aria-labelledby="featuresTitle">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><i class="fa-solid fa-fire-flame-curved"></i> Train harder, recover smarter</p>
+            <h2 id="featuresTitle">Everything You Need to Level Up</h2>
+            <p>
+              Precision equipment, focused zones, and practical coaching built for beginners, athletes, and everyone
+              chasing a stronger version of themselves.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <i class="fa-solid fa-user-shield"></i>
+              <h3>Personal Training</h3>
+              <p>Goal-based coaching with form checks, progressive plans, and accountability.</p>
+            </article>
+            <article class="feature-card reveal">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <h3>Cardio Zone</h3>
+              <p>Treadmills, cycles, and conditioning stations for stamina and fat-loss work.</p>
+            </article>
+            <article class="feature-card reveal">
+              <i class="fa-solid fa-dumbbell"></i>
+              <h3>Strength Equipment</h3>
+              <p>Free weights, racks, benches, plates, and machines for serious strength sessions.</p>
+            </article>
+            <article class="feature-card reveal">
+              <i class="fa-solid fa-apple-whole"></i>
+              <h3>Nutrition Guidance</h3>
+              <p>Simple, sustainable food guidance to support training, recovery, and consistency.</p>
+            </article>
+            <article class="feature-card reveal">
+              <i class="fa-solid fa-people-group"></i>
+              <h3>Group Classes</h3>
+              <p>Energetic sessions that keep training social, structured, and motivating.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery" aria-labelledby="galleryTitle">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><i class="fa-solid fa-camera-retro"></i> Inside Iron Turf</p>
+            <h2 id="galleryTitle">A Space Built for Focus</h2>
+            <p>Explore the training zones, strength floor, cardio area, and no-frills energy that define Iron Turf.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-item-large reveal">
+              <img
+                src="assets/gallery-02.jpg"
+                alt="Modern gym strength area with weight equipment"
+              />
+              <figcaption>
+                <span>Strength Floor</span>
+                <small>Lift heavy. Move with intent.</small>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img
+                src="assets/gallery-03.jpg"
+                alt="Gym cardio equipment and training area"
+              />
+              <figcaption>
+                <span>Cardio Crew</span>
+                <small>Build engine and endurance.</small>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img
+                src="assets/gallery-01.jpg"
+                alt="Athlete training with dumbbells in a gym"
+              />
+              <figcaption>
+                <span>Dumbbell Zone</span>
+                <small>Simple tools. Serious output.</small>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img
+                src="assets/gallery-04.jpg"
+                alt="Group training workout in a fitness studio"
+              />
+              <figcaption>
+                <span>Group Energy</span>
+                <small>Train together. Push further.</small>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item reveal">
+              <img
+                src="assets/gallery-06.jpg"
+                alt="Athlete lifting barbell in a modern gym"
+              />
+              <figcaption>
+                <span>Heavy Duty</span>
+                <small>For every rep that matters.</small>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contactTitle">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow"><i class="fa-solid fa-location-dot"></i> Visit the turf</p>
+            <h2 id="contactTitle">Ready to Start?</h2>
+            <p>
+              Call, chat, or visit Iron Turf at VermaHouse, opposite Paras Hospital, Patna. Your next training chapter
+              starts with one clean decision.
+            </p>
+            <address>
+              2nd Floor, VermaHouse, Opposite Paras Hospital Pillar no 45-46, Patna, Bihar 800014
+            </address>
+          </div>
+
+          <div class="contact-panel reveal" aria-label="Contact and quick links">
+            <a class="quick-link" href="tel:+917070339999">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <div>
+                <strong>Call Iron Turf</strong>
+                <small>+91 70703 39999</small>
+              </div>
+            </a>
+            <a class="quick-link" href="https://wa.me/917070339999" target="_blank" rel="noopener noreferrer">
+              <span><i class="fa-brands fa-whatsapp"></i></span>
+              <div>
+                <strong>WhatsApp Chat</strong>
+                <small>Message the team instantly</small>
+              </div>
+            </a>
+            <a
+              class="quick-link"
+              href="https://www.instagram.com/ironturfgym/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span><i class="fa-brands fa-instagram"></i></span>
+              <div>
+                <strong>Instagram</strong>
+                <small>@ironturfgym</small>
+              </div>
+            </a>
+            <a
+              class="quick-link"
+              href="https://maps.app.goo.gl/R1FbopQC4iygB3Xw8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span><i class="fa-solid fa-map-location-dot"></i></span>
+              <div>
+                <strong>Google Maps</strong>
+                <small>Get directions</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <a class="brand footer-brand" href="#home" aria-label="Iron Turf home">
+          <img src="assets/logo-clean.png" alt="Iron Turf" />
+        </a>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#features">Features</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="social-links" aria-label="Social links">
+          <a href="tel:+917070339999" aria-label="Call Iron Turf">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://wa.me/917070339999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/ironturfgym/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://maps.app.goo.gl/R1FbopQC4iygB3Xw8"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Google Maps"
+          >
+            <i class="fa-solid fa-location-dot"></i>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Iron Turf. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
