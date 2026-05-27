@@ -773,6 +773,19 @@ h1 {
 }
 
 @media (max-width: 620px) {
+  .eyebrow {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 6px;
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .eyebrow i {
+    margin-top: 2px;
+  }
+
   .container,
   .navbar,
   .copyright {
